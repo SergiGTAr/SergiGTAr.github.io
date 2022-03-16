@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
@@ -23,7 +24,7 @@
         </div>
     </nav>
     <header class="text-center text-white bg-primary masthead">
-        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/ProfilePhotomodified.png">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" data-bss-hover-animate="bounce" src="assets/img/ProfilePhotomodified.png">
             <h1>Sergi García</h1>
             <hr class="star-light">
             <h2 class="font-weight-light mb-0">Junior Software Developer</h2>
@@ -31,17 +32,17 @@
     </header>
     <section class="bg-primary mb-0" id="about" style="background: var(--bs-white);filter: saturate(200%);">
         <div class="container">
-            <h2 class="text-uppercase text-center">About</h2>
-            <hr class="star-light mb-5" style="filter: brightness(0%) contrast(200%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(0%) sepia(0%);">
+            <h2 class="text-uppercase text-center text-white" style="border-color: rgb(255,255,255);--bs-body-color: #ffffff;">About</h2>
+            <hr class="star-light mb-5" style="filter: brightness(200%) contrast(200%) grayscale(0%) hue-rotate(0deg) invert(0%) saturate(0%) sepia(0%);">
             <div class="row">
                 <div class="col-lg-4 ms-auto">
-                    <p class="lead" style="filter: contrast(200%);">Junior software developer with one year of on-the-job experience and in second year of a higher degree training cycle in multiplatform application development.</p>
+                    <p class="lead text-white" style="filter: contrast(200%);">Junior software developer with one year of on-the-job experience and in second year of a higher degree training cycle in multiplatform application development.</p>
                 </div>
                 <div class="col-lg-4 me-auto">
-                    <p class="lead" style="filter: contrast(200%);">I am currently working with SAP Business One.&nbsp;<br>On my own and in studies I am working with Android, Java, Kotlin, Python, JavaScript, TypeScript, Angular, NodeJS, Docker among other development technologies.</p>
+                    <p class="lead text-white" style="filter: contrast(200%);">I am currently working with SAP Business One.&nbsp;<br>On my own and in studies I am working with Android, Java, Kotlin, Python, JavaScript, TypeScript, Angular, NodeJS, Docker among other development technologies.</p>
                 </div>
             </div>
-            <div class="text-center mt-4"><a class="btn btn-outline-light btn-xl" role="button" href="#InProgress" style="filter: brightness(0%) contrast(200%);"><i class="fa fa-download me-2"></i><span>Download My CV!</span></a></div>
+            <div class="text-center mt-4"><a class="btn btn-xl" role="button" href="#InProgress" style="filter: brightness(200%) contrast(200%);"><i class="fa fa-download me-2"></i><span class="text-white">Download My CV!</span></a></div>
         </div>
     </section>
     <footer class="text-center footer">
@@ -186,6 +187,7 @@
         </div>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/freelancer.js"></script>
 </body>
 
