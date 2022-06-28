@@ -1,0 +1,9 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+head {
+  min-height: 100vh;
+  height: 100vh;
+}
+
